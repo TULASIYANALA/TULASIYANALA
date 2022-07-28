@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>AREA</title>
+<style>
+body{
+background-image:url('https://wallpapercave.com/wp/wp2561091.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+}
+</style>
+    <h1>Area  of a circle</h1>
+    <p>Enter the radius of circle:</p>
+    <input type="text" id="txtRadius" />
+    <input type="button" value="ok" onClick=CalculateArea() />
+
+    <script>
+        function CalculateArea() {
+            var radius = document.getElementById('txtRadius').value;
+            alert("The area of the circle is " + (radius * radius * Math.PI));
+        }
+    </script>
+</body>
+
+</html>
